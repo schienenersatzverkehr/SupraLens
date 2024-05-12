@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "supra-lens"
+version = "0.1.0"
+description = ""
+authors = ["matthias4543206 <matthias@anemorobotics.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+xarray = "^2024.3.0"
+matplotlib = "^3.8.4"
+loguru = "^0.7.2"
+psutil = "^5.9.8"
+fiona = "^1.9.6"
+geopandas = "^0.14.4"
+shapely = "^2.0.4"
+tqdm = "^4.66.4"
+dask-geopandas = "^0.3.1"
+requests = "^2.31.0"
+seaborn = "^0.13.2"
+affine = "^2.4.0"
+dask = {extras = ["dataframe"], version = "^2024.5.0"}
+ipython = "^8.24.0"
+pyogrio = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
